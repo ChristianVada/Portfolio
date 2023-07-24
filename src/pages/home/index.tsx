@@ -44,18 +44,22 @@ export const Home = (): JSX.Element => {
                 width={"48px"}
                 height={"48px"}
               />
-              <Text color="grey4">Hello, my name is {userData.nameUser}</Text>
+              <Text color="grey4">Hello, I am {userData.nameUser}</Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-            I{" "}
+            Technology{" "}
               <Text as="span" type="heading1" color="brand1">
-                love
+                inspires
               </Text>{" "}
-              creating and{" "}
+                ,{" "}
               <Text as="span" type="heading1" color="brand1">
-                developing
+                teaches
               </Text>{" "}
-              projects
+                and {" "}
+              <Text as="span" type="heading1" color="brand1">
+                challenges 
+              </Text>{" "}
+                me to solve problems daily{" "}
             </Text>
             <Text type="body1" color="grey2">
               Discover here in this environment, created especially for you, all
@@ -65,9 +69,9 @@ export const Home = (): JSX.Element => {
               <Button as="a" type="primary" href="#projects">
                 See Projects
               </Button>
-              <Button as="a" type="outline" target="_blank" href={portfolioUrl}>
+              {/* <Button as="a" type="outline" target="_blank" href={portfolioUrl}>
                 See my portfolio source code
-              </Button>
+              </Button> */}
               <Button
                 color="grey5"
                 as="a"
